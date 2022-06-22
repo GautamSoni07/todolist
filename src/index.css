@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main_div{
+height: 800px;
+width: auto;
+background-color: rgb(54, 51, 53);
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.center_div{
+    height: 600px;
+    width: 500px;
+    background: rgb(203, 205, 207);
+    margin: 2rem;
+    padding-left: 5rem;
+    font-size: 20px;
+}
+h1{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 50px;
+    margin-bottom: 30px;
+    min-width: 64px;
+    box-sizing: border-box;
+    font-weight: 500;
+    border-radius: 4px;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+}
+input{
+    text-align: center;
+    height: 30px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    width: 60%;
+    border-bottom: 2px solid #8566aa;
+    outline: none;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.newBtn{
+    width: 50px;
+    height: 55px;
+    background-color: #16a085 !important;
+    color: white !important;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    border-radius: 50% !important;
+
+}
+.newBtn:hover{
+    color: #16a085 !important;
+    background: white !important;
+}
+
+li{
+    list-style-type: none;
+    text-transform: capitalize;
+    
+}
+.deleteIcon{
+    background-color: #8566aa;
+    border-radius: 50%;
+   
+}
+.deleteIcon:hover{
+    background-color: red;
+    border-radius: 50%;
+}
